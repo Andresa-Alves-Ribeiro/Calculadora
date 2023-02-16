@@ -9,13 +9,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
-    linear-gradient(
-      to top,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(0, 0, 0, 0.25) 200%
-    );
-  background-blend-mode: multiply;
+  background: linear-gradient(to bottom, #3a3a3a 0%, #333333 40%, #222222 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.5) 200%);
   display: grid;
   place-content: center;
 }
