@@ -7,8 +7,17 @@ function addToScreen(value) {
 
 function calculate() {
     const calculation = calcScreen.innerHTML;
-    const result = eval(calculation);
+    const result = eval(calculation).toFixed(2);
     resultScreen.innerHTML = result;
+
+    if (calculation.includes("%")) {
+        const [percentValue, numberValue] = calculation.split("%");
+        const result = parseFloat(numberValue) * (parseFloat(percentValue) / 100);
+        resultScreen.innerHTML = result.toFixed(2);
+    } else {
+        const result = eval(calculation);
+        resultScreen.innerHTML = result;
+    }
 }
 
 function toggleSign() {
@@ -17,6 +26,16 @@ function toggleSign() {
         calcScreen.innerHTML = currentValue.includes('-')
             ? currentValue.slice(1)
             : '-' + currentValue;
+    }
+}
+
+function calculatePercentage() {
+    const calculation = calcScreen.innerHTML;
+    const lastChar = calculation.slice(-1);
+
+    if (!isNaN(lastChar)) {
+        const percentageValue = parseFloat(lastChar) / 100;
+        calcScreen.innerHTML = calculation.slice(0, -1) + percentageValue;
     }
 }
 
