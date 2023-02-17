@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
+import SinalIgual from '../public/assets/equals.svg'
 
 function App() {
   const [calculation, setCalculation] = useState("");
@@ -63,7 +64,7 @@ function App() {
         <div id="calc">
           <div id="last-calc"></div>
           <div id="result">
-            <img src="../public/assets/equals.svg" alt="sinal de igual" />
+            <img src={SinalIgual} alt="sinal de igual" />
             <span id="calculation-screen">{result || calculation || "0"}</span>
           </div>
         </div>
