@@ -15,10 +15,11 @@
 &nbsp;
 
 **Desktop View**
-[![Screenshot-2021-08-31-at-02-06-27-Frontend-Mentor-IP-Address-Tracker.png](https://i.postimg.cc/x1xGRykt/Screenshot-2021-08-31-at-02-06-27-Frontend-Mentor-IP-Address-Tracker.png)](https://postimg.cc/cv3813Bn)
+![calc](https://user-images.githubusercontent.com/94997593/219519129-cd74ba2d-12b1-4337-b8b3-d601523a8553.png)
+
 
 **Mobile View** <br/>
-[![Screenshot-2021-08-31-at-02-09-15-Frontend-Mentor-IP-Address-Tracker.png](https://i.postimg.cc/vZkgTPxF/Screenshot-2021-08-31-at-02-09-15-Frontend-Mentor-IP-Address-Tracker.png)](https://postimg.cc/pmQX1JBq)
+![calc mobile](https://user-images.githubusercontent.com/94997593/219519167-333ff88d-3b1c-4a28-a2f3-332990affc3f.jpeg)
 
 &nbsp;
 <a id="-sobre-o-projeto"></a>

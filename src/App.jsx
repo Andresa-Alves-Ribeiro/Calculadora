@@ -63,7 +63,7 @@ function App() {
         <div id="calc">
           <div id="last-calc"></div>
           <div id="result">
-            <img src="./src/assets/equals.svg" alt="sinal de igual" />
+            <img src="./assets/equals.svg" alt="sinal de igual" />
             <span id="calculation-screen">{result || calculation || "0"}</span>
           </div>
         </div>
